@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiAssignement.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiAssignement"
+    Shell.FlyoutBehavior="Disabled"
+    Title="MauiAssignement">
+
+    <TabBar x:Name="MyTabs">
+        <Tab Title="Home" Icon="home_button.png">
+            <ShellContent ContentTemplate="{DataTemplate local:HomePage}" Route="HomePage"/>
+        </Tab>
+        <Tab Title="Add" Icon="add_button.png">
+            <ShellContent ContentTemplate="{DataTemplate local:Camera}" Route="Camera"/>
+        </Tab>
+        <Tab Title="Subscriptions" Icon="subscribe.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SubscriptionPage}" Route="SubscriptionPage"/>
+        </Tab>
+        <Tab Title="Account" Icon="user_account.png">
+            <ShellContent ContentTemplate="{DataTemplate local:AccountSettings}" Route="AccountSettings"/>
+        </Tab>
+    </TabBar>
+
+    <!--<ShellContent
+        Title="Opening"
+        ContentTemplate="{DataTemplate local:HomePage}"
+        Route="HomePage" />-->
+
+</Shell>
