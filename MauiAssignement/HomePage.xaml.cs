@@ -7,17 +7,20 @@ public partial class HomePage : ContentPage
 	public HomePage()
 	{
 		InitializeComponent();
+        Routing.RegisterRoute("SearchPage", typeof(SearchPage));
 	}
 
-    async void OnImageButtonClicked(object sender, EventArgs e)
+    private async void SearchButton_Clicked(object sender, EventArgs e)
     {
-        //Button btn = (Button)sender;
-        ImageButton ImgBtn = (ImageButton)sender;
-        string id = ImgBtn.StyleId;
-
-        Assembly assembly = GetType().GetTypeInfo().Assembly;
-        Type pageType = assembly.GetType("MauiAssignemnt." + id);
-        Page page = (Page)Activator.CreateInstance(pageType);
-        await Navigation.PushAsync(page);
+        await Shell.Current.GoToAsync("SearchPage");
     }
+
+    private void Ad_1_Button_Clicked(object sender, EventArgs e)
+    {
+        WebView webvView = new WebView
+        {
+            Source = "https://www.fxpro.com/"
+        };
+    }
+
 }

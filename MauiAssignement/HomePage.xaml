@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAssignement.HomePage">
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="MauiAssignement.HomePage">    
 
     <ScrollView>
         <VerticalStackLayout>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="500">
-                <Image Source="youtube_logo.png" HorizontalOptions="Start" VerticalOptions="Start" WidthRequest="120" HeightRequest="120" Aspect="AspectFit" />
-                <ImageButton Source="search.png" HorizontalOptions="End" VerticalOptions="Start" WidthRequest="35" HeightRequest="35" Aspect="AspectFit" StyleId="SearchPage" Clicked="OnImageButtonClicked" />
-                <ImageButton Source="musical_bell_outline.png" HorizontalOptions="End" VerticalOptions="Start" WidthRequest="35" HeightRequest="35" Aspect="AspectFit" StyleId="SearchPage" Clicked="OnImageButtonClicked" />
-            </StackLayout>
+            <HorizontalStackLayout>
+                <Image Source="youtube_logo.png" VerticalOptions="Start" HorizontalOptions="Start"  Margin="0,-30,0,0" WidthRequest="120" HeightRequest="120" Aspect="AspectFit" />
+                <Image Source="musical_bell_outline.png" Margin="180,15,0,0" HorizontalOptions="End" VerticalOptions="Start" WidthRequest="30" HeightRequest="30" Aspect="AspectFit" />
+                <ImageButton Source="search.png" Margin="10,15,0,0" HorizontalOptions="End" VerticalOptions="Start" WidthRequest="35" HeightRequest="35" Aspect="AspectFit" StyleId="SearchPage" Clicked="SearchButton_Clicked"/>
+            </HorizontalStackLayout>
+            <VerticalStackLayout>
+                <ImageButton Source="ad_1.png" HorizontalOptions="CenterAndExpand" WidthRequest="400" HeightRequest="300" Aspect="AspectFit" Clicked="Ad_1_Button_Clicked"/>
+                <ImageButton Source="video_1.png" HorizontalOptions="CenterAndExpand" WidthRequest="400" HeightRequest="300" Aspect="AspectFit" Clicked="Video_1_Button_Clicked"/>
+                <!--<WebView Source="https://www.microsoft.com" VerticalOptions="FillAndExpand" />-->
+                <!--<toolkit:MediaElement x:Name="Video_1"
+                      ShouldAutoPlay="True"
+                      ShouldShowPlaybackControls="True"
+                      Source="https://youtu.be/Kt3EmcyS_N4"
+                      HeightRequest="300"
+                      WidthRequest="400"/>-->
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

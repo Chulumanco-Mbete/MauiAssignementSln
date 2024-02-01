@@ -21,10 +21,4 @@
             <ShellContent ContentTemplate="{DataTemplate local:AccountSettings}" Route="AccountSettings"/>
         </Tab>
     </TabBar>
-
-    <!--<ShellContent
-        Title="Opening"
-        ContentTemplate="{DataTemplate local:HomePage}"
-        Route="HomePage" />-->
-
 </Shell>
