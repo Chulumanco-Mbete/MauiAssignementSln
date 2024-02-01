@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAssignement.SubscriptionPage"
-             Title="SubscriptionPage">
-    <VerticalStackLayout>
-        
-    </VerticalStackLayout>
+             x:Class="MauiAssignement.SubscriptionPage">
+    
+    <ScrollView>
+        <VerticalStackLayout>
+            <HorizontalStackLayout>
+                <Image Source="youtube_logo.png" VerticalOptions="Start" HorizontalOptions="Start"  Margin="1,-30,0,0" WidthRequest="150" HeightRequest="120" Aspect="AspectFit" />
+                <Image Source="musical_bell_outline.png" Margin="560,20,0,0" HorizontalOptions="End" VerticalOptions="Start" WidthRequest="30" HeightRequest="30" Aspect="AspectFit" />
+                <ImageButton Source="search.png" Margin="10,19,0,0" HorizontalOptions="End" VerticalOptions="Start" WidthRequest="35" HeightRequest="35" Aspect="AspectFit" StyleId="SearchPage" Clicked="SearchButton_Clicked"/>
+            </HorizontalStackLayout>
+            <ImageButton Source="ad_5.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="600" Aspect="AspectFill" Clicked="Ad_5_Button_Clicked"/>
+            <ImageButton Source="video_16.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="550" Aspect="AspectFill" Clicked="Video_16_Button_Clicked"/>
+            <ImageButton Source="video_6.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="550" Aspect="AspectFill" Clicked="Video_6_Button_Clicked"/>
+            <ImageButton Source="video_9.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="550" Aspect="AspectFill" Clicked="Video_9_Button_Clicked"/>
+            <ImageButton Source="ad_6.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="950" Aspect="AspectFill" Clicked="Ad_6_Button_Clicked"/>
+            <ImageButton Source="video_18.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="600" Aspect="AspectFill" Clicked="Video_18_Button_Clicked"/>
+            <ImageButton Source="video_2.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="550" Aspect="AspectFill" Clicked="Video_2_Button_Clicked"/>
+            <ImageButton Source="video_3.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="550" Aspect="AspectFill" Clicked="Video_3_Button_Clicked"/>
+            <ImageButton Source="ad_7.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="600" Aspect="AspectFill" Clicked="Ad_7_Button_Clicked"/>
+            <ImageButton Source="video_11.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="550" Aspect="AspectFill" Clicked="Video_11_Button_Clicked"/>
+            <ImageButton Source="video_7.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="550" Aspect="AspectFill" Clicked="Video_7_Button_Clicked"/>
+            <ImageButton Source="video_10.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="550" Aspect="AspectFill" Clicked="Video_10_Button_Clicked"/>
+            <ImageButton Source="ad_8.jpg" HorizontalOptions="CenterAndExpand" HeightRequest="1000" Aspect="AspectFill" Clicked="Ad_8_Button_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

@@ -60,8 +60,65 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\AppIcon\icon.svg" />
+	  <None Remove="Resources\Images\ads\ad_1.jpg" />
+	  <None Remove="Resources\Images\ads\ad_2.jpg" />
+	  <None Remove="Resources\Images\ads\ad_3.jpg" />
+	  <None Remove="Resources\Images\ads\ad_4.jpg" />
+	  <None Remove="Resources\Images\ads\ad_5.jpg" />
+	  <None Remove="Resources\Images\ads\ad_6.jpg" />
+	  <None Remove="Resources\Images\ads\ad_7.jpg" />
+	  <None Remove="Resources\Images\ads\ad_8.jpg" />
+	  <None Remove="Resources\Images\ads\ad_9.jpg" />
 	  <None Remove="Resources\Images\search.png" />
+	  <None Remove="Resources\Images\videos\video_1.jpg" />
+	  <None Remove="Resources\Images\videos\video_10.jpg" />
+	  <None Remove="Resources\Images\videos\video_11.jpg" />
+	  <None Remove="Resources\Images\videos\video_12.jpg" />
+	  <None Remove="Resources\Images\videos\video_13.jpg" />
+	  <None Remove="Resources\Images\videos\video_14.jpg" />
+	  <None Remove="Resources\Images\videos\video_15.jpg" />
+	  <None Remove="Resources\Images\videos\video_16.jpg" />
+	  <None Remove="Resources\Images\videos\video_17.jpg" />
+	  <None Remove="Resources\Images\videos\video_18.jpg" />
+	  <None Remove="Resources\Images\videos\video_2.jpg" />
+	  <None Remove="Resources\Images\videos\video_3.jpg" />
+	  <None Remove="Resources\Images\videos\video_4.jpg" />
+	  <None Remove="Resources\Images\videos\video_5.jpg" />
+	  <None Remove="Resources\Images\videos\video_6.jpg" />
+	  <None Remove="Resources\Images\videos\video_7.jpg" />
+	  <None Remove="Resources\Images\videos\video_8.jpg" />
+	  <None Remove="Resources\Images\videos\video_9.jpg" />
 	  <None Remove="Resources\Splash\splashlogo.svg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\ads\ad_1.jpg" />
+	  <MauiImage Include="Resources\Images\ads\ad_2.jpg" />
+	  <MauiImage Include="Resources\Images\ads\ad_3.jpg" />
+	  <MauiImage Include="Resources\Images\ads\ad_4.jpg" />
+	  <MauiImage Include="Resources\Images\ads\ad_5.jpg" />
+	  <MauiImage Include="Resources\Images\ads\ad_6.jpg" />
+	  <MauiImage Include="Resources\Images\ads\ad_7.jpg" />
+	  <MauiImage Include="Resources\Images\ads\ad_8.jpg" />
+	  <MauiImage Include="Resources\Images\ads\ad_9.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_1.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_10.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_11.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_12.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_13.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_14.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_15.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_16.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_17.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_18.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_2.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_3.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_4.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_5.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_6.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_7.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_8.jpg" />
+	  <MauiImage Include="Resources\Images\videos\video_9.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
